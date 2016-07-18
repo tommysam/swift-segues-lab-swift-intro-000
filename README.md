@@ -3,9 +3,8 @@
 ![Oprah](http://i.imgur.com/JKsuwAw.jpg?1)  
 
 > Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it. ~[Oprah Winfrey](https://en.wikipedia.org/wiki/Oprah_Winfrey)
- 
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives
 
 * Complete this lab
 
