@@ -1,8 +1,8 @@
 # UIStoryboardSegue Lab
 
-![Oprah](http://i.imgur.com/JKsuwAw.jpg?1)  
+![Oprah](http://i.imgur.com/nipZJFj.jpg?1)  
 
-> Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it. ~[Oprah Winfrey](https://en.wikipedia.org/wiki/Oprah_Winfrey)
+> Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it. -[Oprah Winfrey](https://en.wikipedia.org/wiki/Oprah_Winfrey)
 
 ## Learning Objectives
 
