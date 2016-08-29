@@ -4,11 +4,11 @@
 
 > Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it. -[Oprah Winfrey](https://en.wikipedia.org/wiki/Oprah_Winfrey)
 
-## Learning Objectives
+## Overview
 
-* Complete this lab
+In this lab you'll create an app that displays a list in a table view. 
 
-## Directions
+## Instructions
 
 In this lab, you will create a simple iOS app that displays a list of animals in a table view. Tapping on a cell in the table view will bring up another view that shows the emoji for that animal, as well as the English name of that animal. The nav bar title should be changed to the English name as well.
 
