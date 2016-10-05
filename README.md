@@ -46,7 +46,7 @@ A basic Xcode project has been set up for you in the file `Animals/Animal.xcodep
 	* Pig
 	* Frog
 	* Octopus
-15. Implement the method `numberOfSectionsInTableView(_:)`. (If you need help, take a look at the previous lessons to give you a hint.)
+15. Implement the method `numberOfSections(in:)`. (If you need help, take a look at the previous lessons to give you a hint.)
 16. Implement the method `tableView(_:numberOfRowsInSection:)`. (Again, if you some help, take a look at the previous lessons.)
 17. Now you need to add the IB outlets for the `AnimalViewController` scene. Switch back to `Main.storyboard` and select the **Animal View Controller Scene**, then open up `AnimalViewController` in the assistant editor. <kbd>Control</kbd>-drag to add IB oulets for both labels to `AnimalViewController`.
 18. Open up `AnimalViewController.swift` in Xcode's editor. Add an instance variable for the animal being represented in this view, so it can be set by the table view when preparing the segue. (Remember: This variable initially won't be set when the view controller is created. What type should it be?)
@@ -54,7 +54,7 @@ A basic Xcode project has been set up for you in the file `Animals/Animal.xcodep
 	1. Set the smaller text label to the English name of the animal represented in this view.
 	2. Set the larger text label to the emoji corresponding to the animal. (You may want to create a helper method to map the English name of the animal to its emoji.<!-- Should give mapping here, but emoji doesn't work in READMEs -->)
 	3. Set the nav bar title to the English name of the animal.
-20. One last thing: You need to prepare the segue. Switch back to `AnimalViewListController.swift` and implement the method `prepareForSegue(_:sender:)`. This method should get the destination view controller (an instance of `AnimalViewController`) and the currently-selected table cell, and set the destination view controller's `animal` property to the name of the current table selection. Refer back to the previous lesson if you need help implementing this method.
+20. One last thing: You need to prepare the segue. Switch back to `AnimalViewListController.swift` and implement the method `prepare(for:sender:)`. This method should get the destination view controller (an instance of `AnimalViewController`) and the currently-selected table cell, and set the destination view controller's `animal` property to the name of the current table selection. Refer back to the previous lesson if you need help implementing this method.
 
 That's it! You should now have a fully-functional version of this application. Congratulations! You're well on your way to becoming an expert in iOS segues.
 
