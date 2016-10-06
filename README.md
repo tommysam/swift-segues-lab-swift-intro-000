@@ -53,6 +53,16 @@ A basic Xcode project has been set up for you in the file `Animals/Animal.xcodep
 19. Implement `viewWillAppear(_:)` in `AnimalViewController`. This method will have to do three things:
 	1. Set the smaller text label to the English name of the animal represented in this view.
 	2. Set the larger text label to the emoji corresponding to the animal. (You may want to create a helper method to map the English name of the animal to its emoji.)
+	  * Dog -> 🐶
+          * Cat -> 🐱
+          * Mouse -> 🐭
+          * Hamster -> 🐹
+          * Bunny -> 🐰
+          * Panda -> 🐼
+          * Lion -> 🦁
+          * Pig -> 🐷
+          * Frog -> 🐸
+          * Octopus -> 🐙
 	3. Set the nav bar title to the English name of the animal.
 20. One last thing: You need to prepare the segue. Switch back to `AnimalViewListController.swift` and implement the method `prepare(for:sender:)`. This method should get the destination view controller (an instance of `AnimalViewController`) and the currently-selected table cell, and set the destination view controller's `animal` property to the name of the current table selection. Refer back to the previous lesson if you need help implementing this method.
 
